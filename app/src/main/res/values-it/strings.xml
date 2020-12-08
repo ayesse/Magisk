@@ -13,7 +13,7 @@
 
     <!--Home-->
     <string name="no_connection">Connessione non disponibile</string>
-    <string name="home_notice_content">Assicurarsi di utilizzare la versione open source di Magisk Manager. Se proveniente da fonti sconosciute, potrebbe eseguire azioni dannose.</string>
+    <string name="home_notice_content">Assicurati di stare utilizzando la versione open source di Magisk Manager. Se proveniente da fonti sconosciute, potrebbe eseguire azioni dannose.</string>
     <string name="hide">Hide</string>
     <string name="app_changelog">Changelog</string>
     <string name="manager">Manager</string>
@@ -22,7 +22,7 @@
     <string name="home_installed_version">Installata</string>
     <string name="home_support_title">Supportaci</string>
     <string name="home_item_source">Codice sorgente</string>
-    <string name="home_support_content">Magisk è e sempre sarà gratuito ed open source. Puoi comunque mostrarci il tuo apprezzamento inviando una piccola donazione.</string>
+    <string name="home_support_content">Magisk è e sarà sempre gratuito ed open source. Puoi comunque mostrarci il tuo apprezzamento inviando una piccola donazione.</string>
     <string name="home_package">Pacchetto</string>
     <string name="home_status_normal">Normale</string>
     <string name="home_check_safetynet">Controlla SafetyNet</string>
@@ -44,9 +44,9 @@
     <string name="install_start">Andiamo!</string>
     <string name="manager_download_install">Apri questa notifica per scaricare e installare</string>
     <string name="download_zip_only">Scarica solo il file zip</string>
-    <string name="direct_install">Installazione diretta (raccomandata)</string>
+    <string name="direct_install">Installazione diretta (consigliata)</string>
     <string name="install_inactive_slot">Installa nello slot inattivo (dopo un aggiornamento OTA)</string>
-    <string name="install_inactive_slot_msg">Questo dispositivo verrà FORZATO ad avviarsi usando lo slot inattivo!\nUsa questo metodo solo dopo che un aggiornamento OTA è stato installato.\nVuoi continuare?</string>
+    <string name="install_inactive_slot_msg">Questo dispositivo verrà FORZATO ad avviarsi usando lo slot inattivo!\nUsa questo metodo solo dopo aver installato un aggiornamento OTA.\nVuoi continuare?</string>
     <string name="setup_title">Configurazione aggiuntiva</string>
     <string name="select_patch_file">Seleziona e aggiorna un file</string>
     <string name="patch_file_msg">Seleziona un\'immagine in formato .img o un file ODIN .tar</string>
@@ -55,6 +55,7 @@
 
     <!--Superuser-->
     <string name="su_request_title">Richiesta di accesso root</string>
+    <string name="touch_filtered_warning">Dato che un'app sta oscurando la richiesta di accesso root, Magisk non può verificare la tua scelta</string>
     <string name="deny">Nega</string>
     <string name="prompt">Chiedi</string>
     <string name="grant">Consenti</string>
@@ -94,8 +95,8 @@
     <!--SafetyNet-->
     <string name="safetynet_api_error">Errore nelle API SafetyNet</string>
     <string name="safetynet_res_invalid">La risposta non è valida</string>
-    <string name="safetynet_attest_success">Attestazione riuscita!</string>
-    <string name="safetynet_attest_failure">Attestazione fallita!</string>
+    <string name="safetynet_attest_success">Verifica riuscita!</string>
+    <string name="safetynet_attest_failure">Verifica fallita!</string>
     <string name="safetynet_attest_loading">Solo un secondo…</string>
     <string name="safetynet_attest_restart">Prova di nuovo</string>
 
@@ -148,7 +149,7 @@
     <string name="settings_update_custom_msg">Inserisci un URL personalizzato</string>
     <string name="settings_magiskhide_summary">Nasconde Magisk da numerosi sistemi di rilevazione</string>
     <string name="settings_hosts_title">File hosts systemless</string>
-    <string name="settings_hosts_summary">Supporto al file hosts systemless per le app che bloccano le pubblicità</string>
+    <string name="settings_hosts_summary">Supporto al file hosts systemless per le app di blocco pubblicità</string>
     <string name="settings_hosts_toast">Aggiunto modulo per il supporto al file hosts systemless</string>
     <string name="settings_app_name_hint">Nuovo nome</string>
     <string name="settings_app_name_helper">L\'app sarà ricreata con questo nome</string>
@@ -231,7 +232,7 @@
     <string name="setup_msg">Configurazione dell\'ambiente in corso…</string>
     <string name="authenticate">Autentica</string>
     <string name="unsupport_magisk_title">Versione di Magisk non supportata</string>
-    <string name="unsupport_magisk_msg">Questa versione di Magisk Manager non supporta versioni di Magisk inferiori a %1$s.\n\nQuesta app si comporterà come se non fosse installato Magisk, che deve essere aggiornato per procedere all\'utilizzo.</string>
+    <string name="unsupport_magisk_msg">Questa versione di Magisk Manager non supporta versioni di Magisk inferiori a %1$s.\n\nQuesta app si comporterà come se Magisk non fosse installato, per cui si prega di aggiornarlo appena possibile.</string>
     <string name="external_rw_permission_denied">Consenti l\'accesso alla memoria del dispositivo per abilitare questa opzione</string>
     <string name="add_shortcut_title">Aggiungi collegamento alla schermata iniziale</string>
     <string name="add_shortcut_msg">Dopo aver nascosto Magisk Manager, il suo nome e la sua icona potrebbero diventare difficili da riconoscere. Vuoi aggiungere una scorciatoia alla schermata principale?</string>
